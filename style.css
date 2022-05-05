@@ -25,6 +25,65 @@ nav{
     display: none;
 }
 
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--almostWhite);
+    width: 70%;
+    height: auto;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 4rem 1fr 2fr;
+    grid-template-columns: auto;
+    display: none;
+}
+
+.burger{
+    grid-row: 1;
+    grid-column: 1;
+    padding: 2rem;
+    justify-self: end;
+}
+
+.login{
+    justify-self: center;
+}
+
+.register{
+    border: 2px solid black;
+    padding: 0.5rem 4rem;
+    border-radius: 15px;
+}
+
+.login li{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+li{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.arrowDown{
+    background-image: url('./images/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: 5rem;    
+}
+
+.subMenuDetails{
+    padding-left: 1rem;
+    /* display: none; */
+    
+}
+
+.subMenuDetails a{
+    text-decoration: none;
+    line-height: 2.5;
+    color: var(--mediumGray);
+}
+
 header{
     width: 100%;
     height: 52vh;
@@ -43,6 +102,10 @@ p{
     text-align: center;
     margin: auto;
     line-height: 1.8;
+    color: var(--mediumGray);
+    font-weight: 600;
+    opacity: 0.7;
+    z-index: -1;
 }
 
 button{
