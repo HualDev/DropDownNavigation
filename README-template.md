@@ -70,7 +70,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [HualDev](https://github.com/HualDev/DropDownNavigation)
-- Live Site URL: [DropDown](https://hualdev.github.io/SocialMediaDashboard/)
+- Live Site URL: [DropDown](https://hualdev.github.io/DropDownNavigation/)
 
 ## My process
 

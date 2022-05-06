@@ -12,6 +12,7 @@ body{
     margin: 0;
     font-family: 'DM Serif Display', serif;
     font-family: 'Epilogue', sans-serif;
+    background-color: var(--almostWhite);
 }
 
 nav{
@@ -35,7 +36,10 @@ nav{
     z-index: 1;
     display: grid;
     grid-template-rows: 4rem 1fr 2fr;
-    grid-template-columns: auto;
+    grid-template-columns: auto;    
+}
+
+.subMenu{
     display: none;
 }
 
@@ -48,6 +52,7 @@ nav{
 
 .login{
     justify-self: center;
+    display: none;
 }
 
 .register{
@@ -69,7 +74,7 @@ li{
 .arrowDown{
     background-image: url('./images/icon-arrow-down.svg');
     background-repeat: no-repeat;
-    background-position: 5rem;    
+    background-position: 5rem center;    
 }
 
 .subMenuDetails{
@@ -131,4 +136,67 @@ button{
 .clients img{
     width: 20%;
     height: 20%;
+}
+
+@media (min-width:600px) {
+    nav{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        justify-content: space-between; 
+        width: 90%;       
+    }
+
+    ul{
+        display: inline-block;
+        display: flex;
+        gap: 1rem;
+        align-items: center;        
+    }
+
+    li{
+        width: 100px;
+        margin-top: 0;
+    }
+
+    .subMenu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register{
+        padding: 0.5rem 1rem;
+    }
+
+    .subMenuDetails{
+        position: absolute;
+        top: 3rem;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 10px 25px gray;
+        padding: 1rem;
+    }
+
+    .features{
+        left: 0;
+    }
+
+    .company{
+        left: 10rem;
+    }
+
+    
 }
