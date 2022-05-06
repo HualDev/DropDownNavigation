@@ -161,7 +161,7 @@ button:hover{
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width:600px) {
+@media (min-width:720px) {
     nav{
         justify-content: flex-start;
         align-items: center;
@@ -180,9 +180,12 @@ button:hover{
         align-items: center;        
     }
 
-    li{
-        width: 100px;
+    li{        
         margin-top: 0;
+    }
+
+    .arrow{
+        width: 100px;
     }
 
     .subMenu{
