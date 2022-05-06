@@ -98,7 +98,7 @@ I´d like to continue improve about Flexbox and Grid, I hope deepen my knowledge
 
 - Website - [Hualdo](https://hualdevportafolio.netlify.app)
 - Frontend Mentor - [@HualDev](https://www.frontendmentor.io/profile/Hualdev)
-- Twitter - [@Hualdos](https://www.twitter.com/hualdos))
+- Twitter - [@Hualdev](https://www.twitter.com/hualdev))
 
 ## My process
 
@@ -126,4 +126,4 @@ I´d like to continue improve about Flexbox and Grid, I hope deepen my knowledge
 
 - Website - [Hualdo](https://hualdevportafolio.netlify.app)
 - Frontend Mentor - [@HualDev](https://www.frontendmentor.io/profile/Hualdev)
-- Twitter - [@Hualdos](https://www.twitter.com/hualdos)
+- Twitter - [@Hualdev](https://www.twitter.com/hualdev)

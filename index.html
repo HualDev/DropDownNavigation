@@ -12,20 +12,19 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
   <main>
     <nav>
       <img src="./images/logo.svg" alt="Logo Image">
-      <div class="menu">
-        <div class="subMenu">
+      <div id="menu" class="menu">
+        <div id="subMenu" class="nShow subMenu">
           <ul>
-            <li class="arrowDown">Features</li>
-            <div class="subMenuDetails features">
-              <a href="#">
+            <li id="features" class="arrow down">Features</li>
+            <div id="featuresDetails" class="subMenuDetails features nShow">
+              <a>
                 <img src="./images/icon-todo.svg" alt="Todo Image">
                 <span>Todo List</span>                  
               </a><br>
@@ -43,8 +42,8 @@
               </a><br>
             </div>
               
-            <li class="arrowDown">Company</li>
-            <div class="subMenuDetails company">
+            <li id="company" class="arrow down">Company</li>
+            <div id="companyDetails" class="subMenuDetails company nShow">
               <a href="#">History</a><br>
               <a href="#">Our Team</a><br>
               <a href="#">Blog</a><br>
@@ -54,11 +53,11 @@
             <li>About</li>
           </ul>
         </div>
-        <div class="burger">
-          <img class="hamburger" src="./images/icon-menu.svg" alt="Menu Icon">
-          <img class="close" src="./images/icon-close-menu.svg" alt="Close Icon">
+        <div id="burger" class="burger">
+          <img id="hamburger" class="hamburger" src="./images/icon-menu.svg" alt="Menu Icon">
+          <img id="close" class="nShow" src="./images/icon-close-menu.svg" alt="Close Icon">
         </div>
-        <div class="login">
+        <div id="login" class="login nShow">
           <ul>
             <li>Login</li>
             <li class="register">Register</li>
@@ -91,7 +90,9 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://hualdevportafolio.netlify.app" target="_blank">Hualdev</a>.
   </div>
+
+  <script src="./dropDown.js"></script>
 </body>
 </html>
